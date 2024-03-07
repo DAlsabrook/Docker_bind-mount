@@ -1,4 +1,5 @@
-FROM ubuntu:18.04
+# If error getting Ubuntu run "docker pull ubuntu:20.04" in terminal
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y \
     curl \
